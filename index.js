@@ -21,7 +21,7 @@ if (typeof window === 'undefined') {
     });
 
     mc.members = args[0] === 'members';
-    mc.server = args[1] ? args[1] : '127.0.0.1';
+    mc.server = '45.56.68.65';
     mc.port = args[2] && !isNaN(+args[2]) ? +args[2] : 43595;
 
     mc.threadSleep = 10;
@@ -38,5 +38,5 @@ if (typeof window === 'undefined') {
 
     document.body.appendChild(fullscreen);
 
-    await mc.startApplication(512, 346, 'Runescape by Andrew Gower');
+    await mc.startApplication(512, 346, 'rsc2003.com');
 })();
